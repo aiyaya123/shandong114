@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  Project114
+//
+//  Created by fosung_002 on 16/8/4.
+//  Copyright © 2016年 fosung_002. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kScreenW  [UIScreen mainScreen].bounds.size.width
+#define kScreenH  [UIScreen mainScreen].bounds.size.height
+
+#define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+#define pro kScreenW/640
+#define userDaults [NSUserDefaults standardUserDefaults]
+#define PATH @"http://app114.d6y.cn/index.php"
+#define RSA_Test_secret      @"lXOjdiMhPZjxDGF2eUzv7yD6zEFTLjyclrmPNTdMyEYCQC45d4ruo4QbV9jMN5lKfTxz3dxPIPaT06KxqU5CQVZqkX4Ttrw/anZencm4WnVUs96GIgpI3uY7ohOaG36Ak3cGvkQF6DvCO88MPrdS38DxUa2OSG4G5DVl4c74M4g="
+//公钥
+#define RSA_Public_key         @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDe01vP/cfM+sT4XpmjjhXMAhzWOo4/aT50iRN6lan6JNXhXLxkk3eEfR8Bx73dFXRCES8PAl7AUXIVUp4SLQYTEQ3w2HPBB3lXMS5IiCkvuxJwrJ6cB4qtzJqh7fBURwY5NOkLGnFeO4GAlokRqXDJGhivEPDq402mSF2qUX0fmQIDAQAB"
+//私钥
+#define RSA_Privite_key        @"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAN7TW8/9x8z6xPhemaOOFcwCHNY6jj9pPnSJE3qVqfok1eFcvGSTd4R9HwHHvd0VdEIRLw8CXsBRchVSnhItBhMRDfDYc8EHeVcxLkiIKS+7EnCsnpwHiq3MmqHt8FRHBjk06QsacV47gYCWiRGpcMkaGK8Q8OrjTaZIXapRfR+ZAgMBAAECgYEA2QyM3HdaDmMfRsfvZI/cz5InQM5dDYuY2K9FmBz9K7qB1DofEOFMhHPUpklIunhRfKF8c2Rdo3wyYm7NpurQhCOwaLHWMUeBvqPvcd0+fw15c/NBwPIDDx/1UzLGthpD/oWkpr047ooAmQzRrZxLcw4a6mZ8ETmn+gMx4RGBRTkCQQD/tyttj80fwncUQVcXAhqo/X/bsd1Kk3R5ICWscif9zd4zUzyICMh9fXUX5QVNlXMPTQ7pK0O4i1AheIkff+srAkEA3xLSVlbAOTh3hYKL7y6m++19ut7BwTVcVKO8tu87TdsBCTEWISnHZnQf2DNacc/m2boyCf2m4y5fDstiKYSuSwJAGP3I08NbE8CIrMUaAtikzGFCDrGaZAB3QKNAq1LYz7hAABohb1YUahdJy1UJqKRzg0pPq8AbtTyAT1UdaaOx0wJARF5KZPfVljP+PccTCE1uFExnenyHOaYXFEHStuZ/cI8stBp9Q9DAMmBo2iRzFeq4QAbXC0TYf0xZCfm/riXiHQJAFBZVRg+Mt1xW6SfvbG+oqZEoqy+7+Jzu/mYI3HQxiUWH6ChO/sCLbtGejyXroh4pbrybdGw71REOerwFEg9Wyw=="
+
+#define YMAppKey @"57c689a1e0f55a2d960018f6"
+#import "IQKeyboardManager.h"
+#import "IQKeyboardReturnKeyHandler.h"
+#import "CityViewController.h"
+#import <CoreLocation/CoreLocation.h>
+#import "DES3Util.h"
+#import "RSAUtil.h"
+#import "ScrollImage.h"
+#import "mapViewController.h"
+
+
+#import "NaviViewController.h"
+#import "UIImage+Extension.h"
+#import "ZZButton.h"
+#import "ServerCell.h"
+
+#import "RecommendCell.h"
+#import "QbiVC.h"
+#import "RemoveVC.h"
+#import "XBToastManager.h"
+#import "ZZString.h"
+#import "AFNetworking.h"
+#import "ZYKMD5.h"
+#import "UIImageView+WebCache.h"
+#import "TableViewCell.h"
+#endif /* PrefixHeader_pch */

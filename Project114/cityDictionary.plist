@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>B</key>
+	<array>
+		<string>滨州</string>
+	</array>
+	<key>D</key>
+	<array>
+		<string>东营</string>
+		<string>德州</string>
+	</array>
+	<key>H</key>
+	<array>
+		<string>菏泽</string>
+	</array>
+	<key>J</key>
+	<array>
+		<string>济南</string>
+		<string>济宁</string>
+	</array>
+	<key>L</key>
+	<array>
+		<string>聊城</string>
+		<string>临沂</string>
+		<string>莱芜</string>
+	</array>
+	<key>Q</key>
+	<array>
+		<string>青岛</string>
+	</array>
+	<key>R</key>
+	<array>
+		<string>日照</string>
+	</array>
+	<key>T</key>
+	<array>
+		<string>泰安</string>
+	</array>
+	<key>W</key>
+	<array>
+		<string>潍坊</string>
+		<string>威海</string>
+	</array>
+	<key>Y</key>
+	<array>
+		<string>烟台</string>
+	</array>
+	<key>Z</key>
+	<array>
+		<string>淄博</string>
+		<string>枣庄</string>
+	</array>
+</dict>
+</plist>

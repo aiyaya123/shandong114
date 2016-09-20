@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F84716C799DDCB36B08E0F5B43D749F34A9A14E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : 0,
+    "7F84716C799DDCB36B08E0F5B43D749F34A9A14E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "665E78DD-206D-4C51-AB8D-6DC1C8918025",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : "Project114\/Project114\/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93\/3DESiOS\/",
+    "7F84716C799DDCB36B08E0F5B43D749F34A9A14E" : "Project114\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Project114",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Project114.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aiyaya123\/Project114.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F84716C799DDCB36B08E0F5B43D749F34A9A14E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/sinofreely.f3322.org\/dlcmios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "886f8186-a019-3a42-9a32-4364d30223f9++2315"
+    }
+  ]
+}
